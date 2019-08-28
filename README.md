@@ -10,8 +10,9 @@ Get fits and csv files from openlab
 ## getIt.sh
 This is the main script that gets fits files and csv file for the SDSS galaxies on openlab.
 By default it get's:
-  - 5344 spiral galaxies
-  - 11995 elliptical galaxies
+  - 5344 spiral galaxies (specifically galaxies where spirality probability > 0.9 with a magnitude between 16 - 17)
+  - 11995 elliptical galaxies (specifically galaxies where elliptic probability > 0.9 with a magnitude between 16 - 17)
+  
  From 5 wave bands: ["r", "g", "i", "u", "z"]
  
  If you need to change this, you can edit the getIt.sh file. 
