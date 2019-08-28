@@ -15,3 +15,13 @@ By default it get's:
  From 5 wave bands: ["r", "g", "i", "u", "z"]
  
  If you need to change this, you can edit the getIt.sh file. 
+ You can edit any of the following:
+  - which wavebands to fetch (edit wavebands)
+  - which galaxies to get (edit spiral_source and elliptical_source) 
+  - where to download the files (edit spiral_dir and elliptical_dir) 
+
+## Notes:
+  - By default the galaxies names are provided in a text file, where each line contains the name of one galaxy.
+  - This script will create the directories if they do not already exist
+  - You will need write permission in the directory you are copying the files to
+  - Please note that the openlab admins impose a quota on # of files, and space in home directory
